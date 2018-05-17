@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Projeto SINGU</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <h2 id="h2_modal">Editar Voucher</h2>
+          <div class="inside_modal" id="codigo_modal">
+            <h4>CÓDIGO</h4>
+            <input type="text" name="cd_modal" placeholder="Insira o código">
+          </div>
+          <div class="inside_modal" id="valor_modal">
+            <h4>VALOR</h4>
+            <input type="text" name="vl_modal" placeholder="Insira o valor">
+          </div>
+          <div class="inside_modal" id="campanha_modal">
+            <h4>CAMPANHA</h4>
+            <input type="text" name="campanha_modal" placeholder="Insira a campanha">
+          </div>
+          <div class="inside_modal" id="inicio_modal">
+            <h4>INÍCIO</h4>
+            <input type="text" name="inicio_modal" placeholder="Insira o início">
+          </div>
+          <div class="inside_modal" id="fim_modal">
+            <h4>FIM</h4>
+            <input type="date" name="fim_modal">
+          </div>
+          <div class="inside_modal" id="max_modal">
+            <h4>MÁX</h4>
+            <input type="text" name="max_modal" placeholder="Insira o máximo">
+          </div>
+          <div class="inside_modal" id="qtde_modal">
+            <h4>QTDE UTILIDADE</h4>
+            <input type="text" name="qtde_modal" placeholder="Insira a Qtde utilizada">
+          </div>
+          <footer>
+            <button type="button" name="closeBtn" id="closeBtn">Cancelar</button>
+            <button type="button" name="save_close" id="save_close">Salvar e Fechar</button>
+          </footer>
+      </div>
+    </div>
+      <div id="Header"></div>
+    <div id="Voucher">
+      <h1>Vouchers</h1>
+    </div>
+      </br>
+    <div>
+      <input type="text" name="Filters" id="Filters" placeholder="Filters Results">
+    </div>
+      <br>
+    <div>
+      <button id="Settings" type="button" name="Settings">Settings</button>
+    </div>
+      <br>
+        <table>
+         <tr>
+          <th>Código</th>
+          <th>Campanha</th>
+          <th>Início</th>
+          <th>Fim</th>
+          <th>Max</th>
+          <th>Qtde utilizada</th>
+          <th>Valor</th>
+          <th>Ações</th>
+         </tr>
+         <tr>
+          <td>#123456</td>
+          <td>Dia das Maes</td>
+          <td>15/03/2019</td>
+          <td>16/03/2019</td>
+          <td>15</td>
+          <td>10</td>
+          <td>R$199,99</td>
+          <td class="td" id="td"> <button type="button" name="editar" id="Editar" class="Editar">&#9998; Editar</button><br><br> <button type="button" name="excluir" id="Excluir">Excluir</button> </td>
+        </tr>
+        <tr>
+          <td>#123456</td>
+          <td>Dia das Maes</td>
+          <td>15/03/2019</td>
+          <td>16/03/2019</td>
+          <td>15</td>
+          <td>10</td>
+          <td>R$199,99</td>
+          <td class="td" id="td"> <button type="button" name="editar" id="Editar" class="Editar">&#9998; Editar</button><br><br> <button type="button" name="excluir" id="Excluir">Excluir</button> </td>
+        </tr>
+        <tr>
+          <td>#123456</td>
+          <td>Dia das Maes</td>
+          <td>15/03/2019</td>
+          <td>16/03/2019</td>
+          <td>15</td>
+          <td>10</td>
+          <td>R$199,99</td>
+          <td class="td" id="td"> <button type="button" name="editar" id="Editar" class="Editar">&#9998; Editar</button><br><br> <button type="button" name="excluir" id="Excluir">Excluir</button> </td>
+        </tr>
+      </table>
+        <br>
+      <div>
+        <select id="Select" class="Select" name="Select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+        </select>
+      </div>
+        <br>
+      <button id="Next" type="button" name="Next">Next</button>
+        <script src="js/main.js"></script>
+  </body>
+</html>
