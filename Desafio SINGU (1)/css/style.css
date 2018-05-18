@@ -17,6 +17,10 @@ h1{
   margin: auto;
 }
 
+#logo{
+  width: 200px;
+}
+
 table{
   text-align: left;
   width: 90%;
