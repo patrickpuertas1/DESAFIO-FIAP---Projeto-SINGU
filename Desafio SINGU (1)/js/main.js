@@ -11,15 +11,9 @@ closeBtn.addEventListener('click', closeModal);
 window.addEventListener('click', outsideClick);
 
 function openModal(){
-  modal.style.display = 'block';
+  simpleModal.style.display = 'block';
 }
 
 function closeModal(){
-  modal.style.display = 'none';
-}
-
-function outsideClick(){
-  if(e.target == modal){
-  modal.style.display = 'none';
-  }
+  simpleModal.style.display = 'none';
 }
